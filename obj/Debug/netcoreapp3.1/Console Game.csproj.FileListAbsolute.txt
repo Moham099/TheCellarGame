@@ -1,0 +1,13 @@
+C:\Users\monas\source\repos\Console Game\bin\Debug\netcoreapp3.1\Console Game.exe
+C:\Users\monas\source\repos\Console Game\bin\Debug\netcoreapp3.1\Console Game.deps.json
+C:\Users\monas\source\repos\Console Game\bin\Debug\netcoreapp3.1\Console Game.runtimeconfig.json
+C:\Users\monas\source\repos\Console Game\bin\Debug\netcoreapp3.1\Console Game.runtimeconfig.dev.json
+C:\Users\monas\source\repos\Console Game\bin\Debug\netcoreapp3.1\Console Game.dll
+C:\Users\monas\source\repos\Console Game\bin\Debug\netcoreapp3.1\Console Game.pdb
+C:\Users\monas\source\repos\Console Game\obj\Debug\netcoreapp3.1\Console Game.csprojAssemblyReference.cache
+C:\Users\monas\source\repos\Console Game\obj\Debug\netcoreapp3.1\Console Game.AssemblyInfoInputs.cache
+C:\Users\monas\source\repos\Console Game\obj\Debug\netcoreapp3.1\Console Game.AssemblyInfo.cs
+C:\Users\monas\source\repos\Console Game\obj\Debug\netcoreapp3.1\Console Game.csproj.CoreCompileInputs.cache
+C:\Users\monas\source\repos\Console Game\obj\Debug\netcoreapp3.1\Console Game.dll
+C:\Users\monas\source\repos\Console Game\obj\Debug\netcoreapp3.1\Console Game.pdb
+C:\Users\monas\source\repos\Console Game\obj\Debug\netcoreapp3.1\Console Game.genruntimeconfig.cache
