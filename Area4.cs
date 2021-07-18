@@ -30,9 +30,11 @@ namespace TheCellarGame
             Console.ResetColor();
             Console.WriteLine("\n");
 
+            
             Console.Write("1.Pick the left, larger box\n2.Pick the right box\n3.Take both boxes\n>");
 
-            int userInput = int.Parse(Console.ReadLine());
+            
+                int userInput = int.Parse(Console.ReadLine());
 
             switch(userInput)
             {

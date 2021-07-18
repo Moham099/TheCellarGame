@@ -32,7 +32,7 @@ namespace TheCellarGame
                         Console.ResetColor();
                         foreach (Player a in playerList)
                         {
-                            a.WeaponStrPl = 3;
+                            a.WeaponStr = 3;
 
                         }
 
@@ -41,7 +41,7 @@ namespace TheCellarGame
                         foreach (var a in playerList)
                         {
                             TextMod.StaTF();
-                            Console.WriteLine("PLAYER ATTACK STRENGTH IS NOW:{0}", a.WeaponStrPl);
+                            Console.WriteLine("PLAYER ATTACK STRENGTH IS NOW:{0}", a.WeaponStr);
                             Console.ResetColor();
                             Console.WriteLine("\n\npress ANY button to continue\n");
                         }

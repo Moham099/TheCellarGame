@@ -18,8 +18,8 @@ namespace TheCellarGame
             counter++;
             foreach (Player p in playerList)
             {
-                playerHP = p.HealthPl;
-                playerAP = p.WeaponStrPl;
+                playerHP = p.Health;
+                playerAP = p.WeaponStr;
             }
 
             foreach (Enemy e in enemyList)
@@ -93,14 +93,13 @@ namespace TheCellarGame
                     playerHP -= enemyAP;
                     foreach (Player p in playerList)
                     {
-                        p.HealthPl = playerHP;
+                        p.Health = playerHP;
                         Console.WriteLine("PLAYER HEALTH: " + playerHP);
                     }
                     Thread.Sleep(TimeSpan.FromSeconds(1));
                     if (playerHP <= 0)
                     {
-                        Console.WriteLine("You died...sorry...");
-                        //playerDeath();
+                        Death.PlayerDeath();
                     }
                 }
                 else
@@ -112,14 +111,14 @@ namespace TheCellarGame
                     playerHP -= enemyAP * 2;
                     foreach (Player p in playerList)
                     {
-                        p.HealthPl = playerHP;
+                        p.Health = playerHP;
                         Console.WriteLine("PLAYER HEALTH: " + playerHP);
                     }
                     Thread.Sleep(TimeSpan.FromSeconds(1));
                     if (playerHP <= 0)
                     {
-                        Console.WriteLine("You died...sorry...");
-                        //playerDeath();
+                        Death.PlayerDeath();
+                        
                     }
                 }
 

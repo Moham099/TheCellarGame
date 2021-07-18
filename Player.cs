@@ -4,40 +4,36 @@ using System.Text;
 
 namespace TheCellarGame
 {
-    public class Player
+    public class Player : Character
     {
 
-        private string _name;
-        private int _weaponStr;
-        private int _health;
-        public string NamePl
+        //public string _name;
+        //public string _weaponName;
+        //public int _weaponStr;
+        //public int _health;
+
+        //public string Name { get; set; }
+        //public string WeaponName { get; set; }
+        //public int WeaponStr { get; set; }
+        //public int Health { get; set; }
+
+        //public Player()
+        //{
+        //    _name = "DEFAULT";
+        //    _weaponName = "DEFAULT";
+        //    _weaponStr = 0;
+        //    _health = 0;
+        //}
+
+        public Player(string Name, string WeaponName, int WeaponStr, int Health)
         {
-            get { return _name; }
-            set { _name = value; }
-        }
-        public int WeaponStrPl
-        {
-            get { return _weaponStr; }
-            set { _weaponStr = value; }
-        }
-        public int HealthPl
-        {
-            get { return _health; }
-            set { _health = value; }
+            _name = Name;
+            _weaponName = WeaponName;
+            _weaponStr = WeaponStr;
+            _health = Health;
         }
 
-        public Player()
-        {
-            _name = "DEFAULT";
-            _weaponStr =1337;
-            _health = 1337;
 
-        }
-        public Player(string NamePl, int WeaponStrPl, int HealthPl)
-        {
-            _name = NamePl;
-            _weaponStr = WeaponStrPl;
-            _health = HealthPl;
-        }
+
     }
 }

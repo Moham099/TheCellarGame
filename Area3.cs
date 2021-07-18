@@ -44,14 +44,14 @@ namespace TheCellarGame
                             //int a = playerList.IndexOf()
                             foreach (Player a in playerList)
                             {
-                                   a.WeaponStrPl = enemyAP;
+                                   a.WeaponStr = enemyAP;
 
                             }
 
                             foreach (var a in playerList)
                             {
                                 TextMod.StaTF();
-                                Console.WriteLine("PLAYER ATTACK STRENGTH IS NOW:{0}\n\npress ANY button to continue\n\n ", a.WeaponStrPl);
+                                Console.WriteLine("PLAYER ATTACK STRENGTH IS NOW:{0}\n\npress ANY button to continue\n\n ", a.WeaponStr);
                                 Console.ResetColor();
                             }
                             area3Counter++;
