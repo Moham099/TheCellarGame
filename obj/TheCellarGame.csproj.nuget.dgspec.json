@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\monas\\source\\repos\\Console Game\\TheCellarGame.csproj": {}
+    "F:\\Users\\monas\\Documents\\GitHub\\TheCellarGame\\TheCellarGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\monas\\source\\repos\\Console Game\\TheCellarGame.csproj": {
+    "F:\\Users\\monas\\Documents\\GitHub\\TheCellarGame\\TheCellarGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\monas\\source\\repos\\Console Game\\TheCellarGame.csproj",
+        "projectUniqueName": "F:\\Users\\monas\\Documents\\GitHub\\TheCellarGame\\TheCellarGame.csproj",
         "projectName": "TheCellarGame",
-        "projectPath": "C:\\Users\\monas\\source\\repos\\Console Game\\TheCellarGame.csproj",
+        "projectPath": "F:\\Users\\monas\\Documents\\GitHub\\TheCellarGame\\TheCellarGame.csproj",
         "packagesPath": "C:\\Users\\monas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\monas\\source\\repos\\Console Game\\obj\\",
+        "outputPath": "F:\\Users\\monas\\Documents\\GitHub\\TheCellarGame\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

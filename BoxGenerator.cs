@@ -9,10 +9,10 @@ namespace TheCellarGame
         public static void BoxFunc(int select)
         {
 
-            if(select == 0)
-            {
+            //if(select == 0)
+            //{
 
-            }else
+            //}else
 
         }
     }
